@@ -2,7 +2,7 @@ import sys
 if len(sys.argv) == 3:
   script_name = sys.argv[0]
   salary = float(sys.argv[1])
-  bonus = float(sys.argv[2])/0.10
+  bonus = float(sys.argv[2])
   print("user provided input values:")
   print("script name:", script_name)
   print("salary:", salary)
